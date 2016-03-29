@@ -1,2 +1,2 @@
-# homePage-Jquery
-Home Page de Programação de Scripts com implementação de JQuery
+# homepage-scripts
+Home Page para atividade de Programação em Scripts

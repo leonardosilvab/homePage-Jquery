@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cadastrar Titulo</title>
+	<meta charset="utf-8">
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">					 
+					<img src="./image/dd.jpg" title="Decibelle Discos">
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Quem Somos</a>
+						</li>
+						<li>
+							<a href="#">Contato</a>
+						</li>
+						<li>
+							<a href="#">Livro de Visitas</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Generos<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Rock Classico</a>
+								</li>
+								<li>
+									<a href="#">Rock Alternativo</a>
+								</li>
+								<li>
+									<a href="#">Pop-Rock</a>
+								</li>
+								<li>
+									<a href="#">Rock Progressivo</a>
+								</li>
+								<li>
+									<a href="#">New Wave</a>
+								</li>
+								<li>
+									<a href="#">Hip-Hop</a>
+								</li>
+								<li>
+									<a href="#">Anos 60</a>
+								</li>
+								<li>
+									<a href="#">Anos 70</a>
+								</li>
+								<li>
+									<a href="#">Anos 80</a>
+								</li>
+								<li>
+									<a href="#">Anos 90</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Lista de Generos</a>
+								</li>
+								
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div> 
+						<button type="submit" class="btn btn-default">
+							Pesquisar
+						</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						
+						<button type="button" class="btn btn-default navbar-btn">Entrar</button>
+
+					</ul>
+				</div>
+				
+			</nav>
+
+<div class="container">
+	<div class="row">
+		<form id="form-categoria" action="#" role="form">
+			<div id="artista-group"class="form-group">
+				<label for ="inputArtista">Artista </label>
+				<input name="artista" class="form-control" id="inputArtista" type="text" placeholder="Nome do Artista">
+				<span id="artista-help" class="help-block"></span>
+			</div>
+
+			<div id="album-group" class="form-group">
+			<label for="inputAlbum">Album</label>
+			<input name="album" class="form-control" id="inputAlbum" type="text" placeholder="Nome do Album">
+				<span id="album-help" class="help-block"></span>
+			</div>
+
+			<button type="submit" class="btn btn-primary" id="enviar">Cadastrar</button>
+
+		</form>
+		<h2>Lista de Albums</h2>
+			<ol id="lista-categorias">
+
+			</ol>
+	</div>
+</div>
+
+</body>
+</html>
